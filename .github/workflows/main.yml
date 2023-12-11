@@ -54,7 +54,7 @@ jobs:
       uses: actions/checkout@v2
  
     - name: Clean Up
-      run: echo "Cleaning up..."
+      run: echo "Cleaning up...."
  
   final:
     needs: [setup, build, test, deploy, cleanup]
