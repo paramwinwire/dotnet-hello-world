@@ -12,7 +12,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
  
-      #Use the custom setup action
+      #Use the custom setup action setup
     - name: Setup .NET 7
       uses: paramwinwire/test-repo1/.github/actions/custom-setup-dotnet7@main
  
