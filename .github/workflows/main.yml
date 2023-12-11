@@ -1,4 +1,4 @@
-name: Using custom action
+name: For Dotnethelloworld
 on:
   push:
     branches:
